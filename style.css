@@ -1,0 +1,186 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin: 60px auto;
+}
+
+img{
+    width: 200px;
+    border:  solid black;
+    border-radius: 30px;
+}
+
+.schedule-table{
+    width: 85%;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.schedule-table td{
+    border: 1px solid gray; 
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px; 
+}
+
+.schedule-table th{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.schedule-table td:first-child {
+    width: 10%;
+}
+
+.schedule-table td:nth-child(n+2) {
+    width: 15%;
+}
+
+.schedule-table td:empty {
+    background-color: inherit;
+}
+
+#net {
+    background-color: #F94144; 
+    color:aqua;
+}
+#net1 {
+    background-color: #F94144; 
+    color:aqua;
+}
+#net2 {
+    background-color: #F94144;
+    color:aqua; 
+}
+
+#web {
+    background-color: #F3722C;
+    color: darkred; 
+}
+#web1 {
+    background-color: #F3722C;
+    color: darkred;  
+}
+#web2 {
+    background-color: #F3722C; 
+    color: darkred; 
+}
+
+#integ {
+    background-color: #F8961E; 
+    color: darkolivegreen;
+}
+#integ1 {
+    background-color: #F8961E;
+    color: darkolivegreen; 
+}
+#integ2 {
+    background-color: #F8961E; 
+    color: darkolivegreen;
+}
+
+#multi {
+    background-color: #F9C74F;
+    color:darkcyan; 
+}
+#multi1 {
+    background-color: #F9C74F; 
+    color:darkcyan;
+}
+#multi2 {
+    background-color: #F9C74F; 
+    color:darkcyan;
+}
+
+#data {
+    background-color: #43AA8B;
+    color: brown; 
+}
+#data1 {
+    background-color: #43AA8B; 
+    color: brown;
+}
+#data2 {
+    background-color: #43AA8B;
+    color: brown; 
+}
+
+#eth {
+    background-color: #90BE6D;
+    color:purple; 
+}
+#eth1 {
+    background-color: #90BE6D;
+    color:purple; 
+}
+
+#team {
+    background-color: #577590;
+    color:yellowgreen; 
+}
+
+#t{
+    background-color: wheat;
+}
+#t1{
+    background-color: wheat;
+}
+#t2{
+    background-color: wheat;
+}
+#t3{
+    background-color: wheat;
+}
+#t4{
+    background-color: wheat;
+}
+#t5{
+    background-color: wheat;
+}
+#t6{
+    background-color: wheat;
+}
+#t7{
+    background-color: wheat;
+}
+#t8{
+    background-color: wheat;
+}
+#t9{
+    background-color: wheat;
+}
+#t0{
+    background-color: wheat;
+}
+
+@media print {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white; 
+        color: black; 
+    }
+
+    #fb a{
+        color: black !important;
+    }
+
+    img{
+        filter: grayscale(100%);
+    }
+
+    .schedule-table th{
+        color: black;
+        border: 1px solid black;
+    }
+
+    .schedule-table td {
+        color: black !important;
+        background-color: white !important; 
+    }
+}
